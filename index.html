@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Educational site </title>
+    
+        <style>
+            #navbar{
+                background-color: rgb(66, 209, 202);
+                display: flex;
+                position: relative;
+                height:68px;
+                width: 100%;
+                opacity:1.2;
+                align-items: center;
+                
+            }
+            #logo{
+                margin: 50px 70px;
+                padding: 10px 10px;
+
+            }
+
+            #logo img{
+                margin: 30px 60px;
+                border-radius: 50px;
+
+            }
+
+        
+            #navbar ul{
+                display: flex;
+            }
+            #navbar ul li{
+                font-size: 1.4rem;
+                list-style: none;
+
+            }
+
+            #navbar ul li a{
+                margin: 30px;
+                display:flex;
+                padding: 20px 40px;
+                text-decoration: none;
+                color: darkblue;
+            }
+            #navbar ul li a:hover{
+                color:black;
+
+            }
+
+            #home{
+                background: linear-gradient(rgba(0,0,0.3) rgba(0,0,0.2));
+                background-image: url(./background.jpg);
+                height: 300%;
+                display: flex;
+                flex-direction: column;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+            
+    
+            }
+
+            #home h1{
+                font-size: 2.6rem;
+                justify-content: center;
+                align-items: center;
+                color:midnightblue;
+                margin: 80px 30px;
+            }
+            #box img{
+                width: 350px;
+                height: 340px;
+                margin: 30px;
+            
+            }
+            #home p{
+                font-size: 1.4rem;
+                color:crimson;
+            }
+
+    
+            #about{
+                background-color: aquamarine;
+                justify-content: center;
+                align-items: center;
+                height: 950px;
+            }
+
+            #about h1{
+                color: black;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                padding: 70px 50px;
+            }
+
+            #about h2{
+                color: rgba(53, 4, 4, 0.863);
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                padding-bottom: 30px;
+            }
+            #pic-box{
+                float: left;
+                position: absolute;
+                padding-right: 200px;
+                margin-bottom: 80px;
+            }
+        
+
+            #cen-box{
+                float: right;
+                position:absolute;
+                padding-left: 550px;
+                margin-top: 220px;
+            }
+            
+                
+            .primary{
+                padding-right: 438px;
+                background-color: lightskyblue;
+                font-size: 1.9rem;
+                border-radius: 4px;
+                letter-spacing: 3px;
+        
+
+            }
+            .secondary{
+                padding-right: 388px;
+                background-color: lightskyblue;
+                font-size: 1.9rem;
+                border-radius: 4px;
+                letter-spacing: 3px;
+
+            }
+            #pic-box p{
+                color:blue;
+                font-size: 1rem;
+                padding: 10px;
+            
+            }
+
+            #cen-box p{
+                color:blue;
+                font-size: 1rem;
+                padding: 40px;
+
+
+            }
+            #blog{
+                background-color: bisque;
+                height:400%;
+                justify-content: center;
+                align-items: center;
+                display:flexbox;
+                padding:20px;
+            
+            
+            }
+            .prim{
+                color:black;
+                font-size: 2.5rem;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                
+
+            }
+            .pic img{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                position:absolute;
+                padding: 30px 460px;
+            }
+            .im-box{
+            
+                border: solid darkred 4px;
+                border-radius: 5px;
+                display:inline-block;
+                margin: 275px 35px;
+                background-color: lightpink;
+                padding:8px;
+                
+            }
+            #services .im-box img{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                position:relative;
+                margin: 31px;
+            
+            
+            }
+            .h-sec{
+                justify-content: center;
+                align-items: center;
+                color: darkred;
+                display:flex;
+            }
+            #services p{
+                color:darkmagenta;
+                justify-content: center;
+                align-items: center;
+                display:flex;
+            }
+            .btn{
+                color:darkblue;
+                background-color: aquamarine;
+                cursor: pointer;
+                border: solid 4px black;
+                border-radius: 12px;
+                font-size: 1.4rem;
+                padding: 7px;
+                margin: 3px 550px;
+                
+            }
+            .btn:hover{
+                color: red;
+            }
+            
+            
+
+        </style>
+   
+    </head>
+
+    <body>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="./1.jpg" alt="learningkingdom" width="60px" height="55px"/>
+            </div>
+
+            <ul>
+                <li class="item"> <a href="#home"> Home</a> </li>
+                <li class="item"> <a href="#about"> About Us </a> </li>
+                <li class="item"> <a href="#blog"> Blog </a></li>
+                <li class="item"> <a href="#contact">  Contact Us </a> </li>
+            </ul>
+        </nav>
+        <hr  />
+        <section id="home">
+            <h1> Welcome to Our Home page</h1>
+            <br   />
+            <br   />
+            <p class="p-primary"> Explore the world of Learning Kingdom through our website.</p>
+            <br   />
+            <br   />
+            <p class="p-sec"> Our institute provides futuristic learning facilities through digital and high profile gadgets, so that individuals can learn more effectively.</p>
+
+            <br   />
+            <br   />
+            <br    />
+            <div id="box">
+                <img src="./3.jpg" alt=" webpage"/>
+            </div>
+        </section>
+        <hr  />
+        <section id="about">
+            <h1> ABOUT US</h1>
+            
+            <h2> Explore Our World!!! </h2>
+            <br  />
+            <br   />
+            <div id="pic-box">
+            
+                <h2 class="primary"> "Words from CEO" </h2>
+                <img src="./4.png" alt="Founder" width="300" height="280" align="left"/>
+             <p> Our CEO, Mr. John Robert; who is also a well-known<br></br> 
+                 educationalist, always focus on quality education <br></br>
+                 and student-centered learning environment, through<br></br>
+                 which a child can learn effectively.
+              </p>
+            </div>
+
+            <div id="cen-box">
+            
+            
+                <h2 class="secondary"> "Our Learning Centre"</h2>
+                <img src="./5.png" alt="learningcentre" width="300" height="280" align="right"/>
+              <p>
+                Explore our comfy yet attractive learning centre through <br> </br>
+                our website. You can visit us during school premises to <br> </br>
+                have a look at our activity-based environment.
+            </p>
+            </div>
+        </section>  
+        <hr  >
+        <section id="blog">
+            <div>
+            <h1 class="prim"> Our Gallery </h1>
+            </div>
+            <div class="pic">
+            <img src="./6.jpg" alt="activities" width="380" height="200"/>
+            </div>
+            <div id="services">
+             <div class="im-box">
+                <img src="./7.webp" alt="teamwork" width="250" height="250"/>
+                <h2 class="h-sec"> Teamwork </h2>
+                <p> Our motive is to build up the value of teamwork.</p>
+             </div>
+             <div class="im-box">
+                <img src="./8.jpg" alt="creativity" width="270" height="250"/>
+                <h2 class="h-sec"> Creativity </h2>
+                <p> Using of creative skills like painting, artwork is a must.</p>
+             </div>
+             <div class="im-box">
+                <img src="./9.jpg" alt="roleplay" width="250" height="250"/>
+                <h2 class="h-sec"> Role Play </h2>
+                <p> Role is the key factor to enhance creativite skills.</p>
+             </div>
+             </div>
+        
+            <div id="contact">
+                <h3> To contact us, click the button below:</h3>
+                <button class="btn"><a href="./form.html"> Click here </a></button>
+            </div>
+            
+        </section>
+
+    </body>
+</html>

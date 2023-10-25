@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form </title>
+        <style>
+            fieldset{
+                border: solid black 3px;
+                margin: 50px 420px;
+                background-color: lightblue;
+                justify-content: center;
+                align-items: center;
+                padding-left: 50px;
+                display: flex;
+                position: absolute;
+                width: 450px;
+
+            }
+            body{
+                background-color: aliceblue;
+            }
+            h1{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            
+            }
+            button{
+                border: solid black 2px;
+                border-radius: 50px;
+                cursor: pointer;
+                margin: 5px;
+                padding: 5px 8px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> Connect with Us!!</h1>
+        <fieldset>
+            <form action="./index.html">
+                <h2> Fill up your Contact details </h2>
+                <p> First Name</p>
+                <input type="text" size="20" maxlength="20characters">
+                
+                <p>Last Name </p>
+                <input type="text" size="20" maxlength="20characters">
+                
+            
+                <br  />
+                <p> Enter your email address</p>
+                <input type="email" size="25" maxlength="30characters">
+                <br  />
+        
+                <p> Comments: </p>
+                <textarea name="comments"> Write your comments here:</textarea>
+                <br  />
+                <br   />
+                <br   />
+                <button> Submit </button>
+            </form>
+        </fieldset>
+    </body>
+</html>
